@@ -1,7 +1,6 @@
 {
   "name": "@smilekite/lego-bricks",
   "version": "1.0.0",
-  "private": false,
   "author": "smiley",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -38,13 +37,13 @@
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-typescript": "~4.5.0",
-    "@vue/cli-plugin-unit-jest": "^4.5.11",
+    "@vue/cli-plugin-unit-jest": "~4.5.11",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
-    "@vue/eslint-config-typescript": "^5.0.2",
-    "@vue/test-utils": "^2.0.0",
+    "@vue/eslint-config-typescript": "~5.1.0",
+    "@vue/test-utils": "2.0.0-alpha.8",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^7.0.1",
+    "eslint-plugin-vue": "^7.0.0",
     "husky": "^4.3.8",
     "rimraf": "^3.0.2",
     "rollup": "^2.38.5",
@@ -69,5 +68,9 @@
     "type": "git",
     "url": "https://github.com/Kitesource/lego-bricks"
   },
-  "types": "dist/index.d.ts"
+  "types": "dist/index.d.ts",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
