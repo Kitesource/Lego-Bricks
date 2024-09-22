@@ -1,6 +1,6 @@
 {
   "name": "@smilekite/lego-bricks",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "author": "smiley",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -51,11 +51,11 @@
     "rollup-plugin-typescript2": "^0.29.0",
     "rollup-plugin-vue": "^6.0.0",
     "typescript": "^3.9.3",
-    "vue": "~3.2.0",
+    "vue": "^3.0.0",
     "vue-jest": "5.0.0-alpha.9"
   },
   "peerDependencies": {
-    "vue": "~3.2.0"
+    "vue": "^3.0.0"
   },
   "homepage": "https://github.com/Kitesource/lego-bricks",
   "keywords": [
