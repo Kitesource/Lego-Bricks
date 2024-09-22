@@ -2,7 +2,7 @@
   "name": "@smilekite/lego-bricks",
   "version": "1.0.0",
   "private": false,
-  "author": "Smiley",
+  "author": "smiley",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "npm run clean && npm run build:esm && npm run build:umd",
@@ -58,7 +58,7 @@
   "peerDependencies": {
     "vue": "~3.2.0"
   },
-  "homepage": "https://github.com/imooc-lego/lego-components",
+  "homepage": "https://github.com/Kitesource/lego-bricks",
   "keywords": [
     "Component",
     "UI",
@@ -67,7 +67,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/imooc-lego/lego-components"
+    "url": "https://github.com/Kitesource/lego-bricks"
   },
   "types": "dist/index.d.ts"
 }

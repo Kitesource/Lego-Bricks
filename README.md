@@ -1,4 +1,4 @@
-# 慕课乐高业务组件库
+# SMILE LEGO 业务组件库
 
 ## 特性
 * **typescript** 
