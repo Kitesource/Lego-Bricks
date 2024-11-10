@@ -1,6 +1,6 @@
 {
   "name": "@smilekite/lego-bricks",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "author": "smiley",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -50,7 +50,7 @@
     "rollup-plugin-css-only": "^3.1.0",
     "rollup-plugin-typescript2": "^0.29.0",
     "rollup-plugin-vue": "^6.0.0",
-    "typescript": "^3.9.3",
+    "typescript": "^4.3.5",
     "vue": "~3.4.0",
     "vue-jest": "5.0.0-alpha.9"
   },
