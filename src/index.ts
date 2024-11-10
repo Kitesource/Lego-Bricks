@@ -1,4 +1,4 @@
-import { App } from 'vue'
+import { App, Component } from 'vue'
 export { textDefaultProps , textStylePropNames, TextComponentProps,
   imageDefaultProps, imageStylePropsNames, ImageComponentProps,
   shapeDefaultProps, shapeStylePropsNames, ShapeComponentProps,
@@ -8,6 +8,7 @@ export { textDefaultProps , textStylePropNames, TextComponentProps,
 import LText from './components/LText'
 import LImage from './components/LImage'
 import LShape from './components/LShape'
+import FinalPage from './components/FinalPage'
 
 const components = [
   LText,
@@ -16,7 +17,7 @@ const components = [
 ]
 
 const install = (app: App) => {
-  components.forEach(component => {
+  components.forEach((component: Component) => {
     app.component(component.name!, component)
   })
 }
@@ -25,7 +26,8 @@ export {
   LText,
   LImage,
   LShape,
-  install
+  install,
+  FinalPage
 }
 export default {
   install

@@ -1,5 +1,32 @@
 import { mapValues, without } from 'lodash-es'
 
+export interface ComponentData {
+  props: { [key: string]: any };
+  id: string;
+  name: string;
+  layerName?: string;
+  isHidden?: boolean;
+  isLocked?: boolean;
+}
+
+export interface PageData {
+  props: { [key: string]: any };
+  setting: { [key: string]: any };
+  id?: number;
+  title?: string;
+  desc?: string;
+  coverImg?: string;
+  uuid?: string;
+  latestPublishAt?: string;
+  updatedAt?: string;
+  isTemplate?: boolean;
+  isHot?: boolean;
+  isNew?: boolean;
+  author?: string;
+  status?: string;
+}
+
+
 export interface CommonComponentProps {
   // actions
   actionType: string;
@@ -63,7 +90,7 @@ export interface TextComponentProps extends CommonComponentProps {
   backgroundColor: string;
 }
 export interface ImageComponentProps extends CommonComponentProps {
-  src: string;
+  imageSrc: string;
 }
 export interface ShapeComponentProps extends CommonComponentProps {
   backgroundColor: string;
@@ -84,7 +111,7 @@ export const textDefaultProps: TextComponentProps = {
   ...commonDefaultProps
 }
 export const imageDefaultProps: ImageComponentProps = {
-  src: 'test.url',
+  imageSrc: '',
   ...commonDefaultProps
 }
 export const shapeDefaultProps: ShapeComponentProps = {
